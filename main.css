@@ -1,0 +1,92 @@
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+table th {
+    background: lightgray;
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+
+}
+
+.selected {
+    background: lightgreen
+}
+
+
+.sub_menu {
+    display: none;
+    width: 60px;
+    min-height: 30px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.sub_menu input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: block;
+    margin: 5px 0px;
+    transition: all .5s ease-in
+}
+
+.sub_menu input:hover {
+    background-color: green;
+    color: white
+}
+
+.main_menu {
+    position: absolute;
+    right: 5px;
+    bottom: 1px;
+    width: 60px;
+
+}
+
+.main_menu>button {
+    width: 100%;
+    cursor: pointer;
+    background-color: green;
+    color: white
+}
+
+.main_menu_items {
+    position: absolute;
+    right: 60px;
+    min-height: 30px;
+    width: 100px;
+    background: lightgreen;
+    z-index: 1;
+    /* display: none */
+}
+
+.main_menu_items input {
+    margin: 3px 0;
+    height: 100%;
+    width: 100%;
+    transition: all .5s ease-in;
+}
+
+.main_menu_items input:hover {
+    background-color: green;
+    color: white;
+
+}
+
+.hide {
+    display: none
+}
